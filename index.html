@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulier</title>
+    <meta name="author" content="Mick Bosman">
+  </head>
+
+  <body lang="en">
+<h1>Uw mening</h1>
+<p>Dit formulier stelt wat vragen over uw mening van verschillende onderwerpen.</p>
+<form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+  <label>Name *
+<input type="text" name="custname" placeholder="first and last name" required="required" autofocus=""></label>
+<br>
+<label>E-mail * <input type="email" placeholder="25558@ma-web.nl" name="email" required="required"></label>
+
+  <fieldset>
+<legend>Opleiding</legend>
+<br>
+<p>Welk van de onderstaande vakken vind jij leuk?</p>
+  <input type="checkbox" name="Pro2" value="Pro2">Pro2
+  <input type="checkbox" name="Pro1" value="Pro1">Pro1
+  <input type="checkbox" name="Proj" value="Proj">Proj
+  <input type="checkbox" name="TPR" value="TPR">TPR
+  <input type="checkbox" name="WVO" value="WVO">WVO
+<br>
+</fieldset>
+
+<fieldset>
+  <legend>Cijfer</legend>
+  <p>Welk cijfer geef jij deze vakken?</p>
+  <p>Pro2
+  <input type="radio" name="cijer" value="1">1
+  <input type="radio" name="cijer" value="2">2
+  <input type="radio" name="cijer" value="3">3
+  <input type="radio" name="cijer" value="4">4
+  <input type="radio" name="cijer" value="5">5
+  <input type="radio" name="cijer" value="6">6
+  <input type="radio" name="cijer" value="7">7
+  <input type="radio" name="cijer" value="8">8
+  <input type="radio" name="cijer" value="9">9
+  <input type="radio" name="cijer" value="10">10
+</p>
+<p>Pro1
+  <input type="radio" name="cijer1" value="1">1
+  <input type="radio" name="cijer1" value="2">2
+  <input type="radio" name="cijer1" value="3">3
+  <input type="radio" name="cijer1" value="4">4
+  <input type="radio" name="cijer1" value="5">5
+  <input type="radio" name="cijer1" value="6">6
+  <input type="radio" name="cijer1" value="7">7
+  <input type="radio" name="cijer1" value="8">8
+  <input type="radio" name="cijer1" value="9">9
+  <input type="radio" name="cijer1" value="10">10
+</p>
+<p>Proj
+  <input type="radio" name="cijer2" value="1">1
+  <input type="radio" name="cijer2" value="2">2
+  <input type="radio" name="cijer2" value="3">3
+  <input type="radio" name="cijer2" value="4">4
+  <input type="radio" name="cijer2" value="5">5
+  <input type="radio" name="cijer2" value="6">6
+  <input type="radio" name="cijer2" value="7">7
+  <input type="radio" name="cijer2" value="8">8
+  <input type="radio" name="cijer2" value="9">9
+  <input type="radio" name="cijer2" value="10">10
+</p>
+<p>TPR
+  <input type="radio" name="cijer3" value="1">1
+  <input type="radio" name="cijer3" value="2">2
+  <input type="radio" name="cijer3" value="3">3
+  <input type="radio" name="cijer3" value="4">4
+  <input type="radio" name="cijer3" value="5">5
+  <input type="radio" name="cijer3" value="6">6
+  <input type="radio" name="cijer3" value="7">7
+  <input type="radio" name="cijer3" value="8">8
+  <input type="radio" name="cijer3" value="9">9
+  <input type="radio" name="cijer3" value="10">10
+  </p>
+</fieldset>
+
+<fieldset>
+  <legend>Toevoeging</legend>
+  <p>Heeft u nog toevoegingen?</p>
+  <textarea name="toevoegingen" rows="8" cols="55">
+  </textarea>
+
+</fieldset>
+  <fieldset>
+    <legend>Keuze</legend>
+<label>Welke opleiding gaa jij kiezen?
+  <select name="OpleidingKeuze">
+    <option value="Mediadeveloper">Mediadeveloper</option>
+     <option value="Gamedeveloper">Gamedeveloper</option>
+     <option value="Anders">Anders</option>
+     <option value="selection" selected=""></option>
+ </select></label></fieldset>
+ <br>
+<input type="submit" value="Submit Form">
+</form>
+<br>
+<div id="validatie">
+  <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+      <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+  </a>
+</div>
+
+</body>
+
+</html>
